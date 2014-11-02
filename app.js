@@ -13,12 +13,11 @@ Meteor.methods({
 
 if(Meteor.isServer) {
   Meteor.publish('todos', function() {
-    return Todos.find();
+    return Todos.find({}, {limit: 10});
   });
 }
 
 if(Meteor.isClient) {
-  Meteor.call('trackLocation');
   Meteor.subscribe('todos');
 
   Template.main.events({
