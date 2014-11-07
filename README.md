@@ -1,5 +1,3 @@
-# bullet-one: input validations
+#[Optimizing for Oplog](https://bulletproofmeteor.com/basics/optimizing-for-oplog)
 
-This is a simple todo Meteor app which helps you to understand input validations.
-
-![Meteor Todo App Screenshot](https://i.cloudup.com/DCcBG58qYv.png)
+[![Optimizing for Oplog](https://cldup.com/VfEIIUal3L.png)](https://bulletproofmeteor.com/basics/optimizing-for-oplog)
