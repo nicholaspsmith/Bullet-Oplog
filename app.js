@@ -13,7 +13,7 @@ Meteor.methods({
 
 if(Meteor.isServer) {
   Meteor.publish('todos', function() {
-    return Todos.find({}, {limit: 10});
+    return Todos.find({}, {limit: 10, sort: {date: -1}});
   });
 }
 
